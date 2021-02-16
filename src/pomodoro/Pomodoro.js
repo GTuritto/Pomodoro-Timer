@@ -15,7 +15,7 @@ function Pomodoro() {
   const [stopDisabled, setStopDisabled] = useState(true)
   const [currentState, setCurrentState] = useState('Focusing')
   const myAudio = useRef()
-  const alarm = new Audio(`${process.env.PUBLIC_URL}/alarm/submarine-dive-horn.mp3`)
+  const alarm = new Audio(`https://bigsoundbank.com/UPLOAD/mp3/0899.mp3`)
 
   useInterval(
     () => {
